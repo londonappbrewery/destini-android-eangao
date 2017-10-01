@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         if(savedInstanceState != null){
             mStoryIndex = savedInstanceState.getInt("StoryIndex");
         }else {
-            mStoryIndex = 0;
+            mStoryIndex = 1;
         }
 
 
